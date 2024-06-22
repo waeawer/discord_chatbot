@@ -1,5 +1,7 @@
 require('dotenv')
 const { Client,Util, Collection,MessageEmbed,Structures } = require("discord.js");
+const keep_alive = require('./keep_alive.js')
+
 const keepAlive = require('./server.js')
 keepAlive()
 async function errorEmbed(text,message){
